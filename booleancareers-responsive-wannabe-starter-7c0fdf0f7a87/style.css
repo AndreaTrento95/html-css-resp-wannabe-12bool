@@ -103,4 +103,8 @@ img {
   .container .third{
     margin-bottom: 10px;
   }
+
+  hr{
+    margin: 0 5px;
+  }
 }
