@@ -218,7 +218,7 @@
 
 
 @media all and (min-width: 992px) {
-    .col-xs-12{
+    .col-lg-12{
         width: 100%;
     }
     

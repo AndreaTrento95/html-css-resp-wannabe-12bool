@@ -5,6 +5,10 @@
   margin-top: 100px;
 }
 
+.text-align{
+  text-align: center;
+}
+
 /* BLOCCO LEZIONI */
 #lezioni .row>.left,
 #lezioni .row>.right {
@@ -47,7 +51,7 @@
   margin-top: 80px;
 }
 
-#why .row img {
+#why  img {
   background-color: #428bca;
   border-radius: 50%;
   padding: 30px
@@ -60,14 +64,43 @@
   clear: both;
 }
 
-.container.grey {
+.grey {
   background-color: #f9f9f9;
 }
 
 img {
   height: 200px;
+  
 }
 
 .clear {
   clear: both;
+}
+
+
+/* MEDIA QUERY */
+@media all and (max-width:991px) {
+  #lezioni,
+  #why{
+    background-color: rgb(242, 242, 205);
+  }
+
+  #lezioni,
+  #steps{
+    margin-bottom: 20px;
+  }
+
+  img{
+    height: 150px;
+    margin: 10px 0;
+  }
+
+  h1{
+    margin: 10px 0;
+  }
+
+  .container .right,
+  .container .third{
+    margin-bottom: 10px;
+  }
 }
